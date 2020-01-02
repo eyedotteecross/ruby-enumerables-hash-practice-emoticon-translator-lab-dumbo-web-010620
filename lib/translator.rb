@@ -3,7 +3,7 @@ require 'pry'
 
 def load_library (file_path)
   YAML.load_file(file_path)
-  return {:'get_meaning' , :'get_emoticion'}
+  return {'get_meaning' : nil , 'get_emoticion' : nil}
 end
 
 def get_japanese_emoticon
